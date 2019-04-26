@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("fonts/Roboto-Medium.ttf") format("ttf"),
+           url("fonts/ChelaOne-Regular.ttf") format("ttf");
+   }

@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "BalooTamma","ChelaOne","Roboto","fontawesome";
+    src: url("fonts/Roboto-Medium.ttf") format("ttf"),
+         url("fonts/Roboto-Bold.ttf") format("ttf")
+         url("fonts/ChelaOne-Regular.ttf") format("ttf"),
+         url("fonts/BalooTamma-Regular.ttf") format("ttf"),
+         url("fonts/fontawesome-webfont.ttf") format("ttf");
+   }
+   body
+   {
+       font-family: Roboto;
+   }
+   /* debut navbar haut perso*/
+   nav li
+   {
+    display: inline-block;
+    word-spacing: 40px;
+   }
+    nav ul 
+    {
+        list-style-type: none;
+        word-spacing: 80px;
+        text-align: center;
+        margin-top: 17px;
+        font-size: 20px;
+    }
+    nav a:hover
+    {
+        text-decoration: none;
+    }   
+
+#titre
+{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#amorce
+{
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.img-aff
+{
+    width: 100px;
+    
+}
+.col-pouss-6
+{
+    margin-top: 60px;
+}
+#img-cent1
+{
+    width: 700px;
+    margin-left: -120px;
+}
+#img-cent2
+{
+    width: 700px;
+    margin-right: -120px;
+
+}
+.color-foot
+{
+    background-color:#00a7c5;
+    position: static;
+}
+.titre-center
+{
+    text-align: center;
+    padding-top: 10px;
+}
+.btn-deplace
+{
+margin-left: 45px;
+}
+.img-col-5
+{
+ width: 600px;
+
+}
+.range-modal
+{
+    position: absolute;
+    top: 190px;
+    right: 70px;
+    box-shadow: 0px 6px 0px rgba(0,0,0,0.25),0px 6px 0px rgba(0,0,0,0.29);
+    transform: rotate3d(-50%,-50%);
+    transition: all 0.5s;
+}
+#img-col-7
+{
+    width: 700px;
+    margin-left: -120px;
+}
+
+
+
+   .range
+   {
+       background-color: #00C851;
+       height: 48px;
+       font-size: 17px;
+   }
+   .range a
+   {
+       color: #fff;
+   }
+    /* fin navbar haut perso*/
+.buton
+{
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom:17px;
+    word-spacing: 50px;
+}
+.buton a
+{
+    color:#fff;
+    text-decoration: none;
+}
+button
+{
+    transition: 0s 0.5s ease-out;
+}
+.foot-color
+{
+    background-color: #87CEFA;
+}
